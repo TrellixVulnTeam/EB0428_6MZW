@@ -1,0 +1,77 @@
+<template>
+   <el-menu
+      default-active="2"
+      class="el-menu-style"
+      @open="handleOpen"
+      @close="handleClose"
+      background-color="#112538"
+      text-color="#fff"
+      active-text-color="#3287B2">
+      <el-submenu index="1">
+        <template slot="title">
+          <i class="el-icon-printer"></i>
+          <span>网关管理</span>
+        </template>
+        <el-menu-item-group>
+          <el-menu-item index="1-1">网关信息</el-menu-item>
+          <el-menu-item index="1-2">系统信息</el-menu-item>
+          <el-menu-item index="1-2">网关服务</el-menu-item>
+        </el-menu-item-group>
+      <el-menu-item index="2">
+        <template slot="title">
+          <i class="el-icon-setting"></i>
+          <span slot="title">子设备管理</span>
+        </template>
+        <el-menu-item-group>
+          <el-menu-item index="2-1">配置下发</el-menu-item>
+          <el-menu-item index="2-2">远程管理</el-menu-item>
+        </el-menu-item-group>
+      </el-menu-item>
+      <el-menu-item index="3">
+        <i class="el-icon-s-platform"></i>
+        <span slot="title">远程管理及维护</span>
+      </el-menu-item>
+      <el-menu-item index="4">
+        <i class="el-icon-notebook-1"></i>
+        <span slot="title">日志事件</span>
+      </el-menu-item>
+      <el-menu-item index="5">
+        <i class="el-icon-coin"></i>
+        <span slot="title">设备驱动库</span>
+      </el-menu-item>
+       <el-menu-item index="6">
+        <i class="el-icon-set-up"></i>
+        <span slot="title">M5对接模块</span>
+      </el-menu-item>
+    </el-menu>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+
+    }
+  },
+  methods: {
+      handleOpen(key, keyPath) {
+        console.log(key, keyPath);
+      },
+      handleClose(key, keyPath) {
+        console.log(key, keyPath);
+      }
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.el-menu-style {
+  height: 100%;
+  width: 199px;
+  // min-height: 625px;
+}
+
+.el-submenu .el-menu-item{
+    min-width: 199px;
+  }
+</style>

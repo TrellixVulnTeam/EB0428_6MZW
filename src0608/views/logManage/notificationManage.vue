@@ -1,0 +1,89 @@
+<template>
+  <el-main class="no-padding">
+      <el-breadcrumb separator-class="el-icon-arrow-right">
+        <el-breadcrumb-item>事件中心</el-breadcrumb-item>
+        <el-breadcrumb-item>通知管理</el-breadcrumb-item>
+      </el-breadcrumb>
+      <el-row class="row-padding">
+          <el-button type="primary" size="small">新增</el-button>
+          <el-input size="small" placeholder="请输入内容" v-model="searchEvent" class="search-input pull-right">
+           <el-button slot="append" icon="el-icon-search"></el-button>
+         </el-input>
+      </el-row>
+      <el-row>
+       <el-alert title="该功能还未添加！" type="warning" show-icon></el-alert>
+    </el-row>
+      <el-table :data="tableData">
+          <el-table-column label="责任人" prop="responsible"></el-table-column>
+          <el-table-column label="位置" prop="position"></el-table-column>
+          <el-table-column label="已通知消息数" prop="mesNumber"></el-table-column>
+          <el-table-column label="最近通知时间" prop="time"></el-table-column>
+          <el-table-column label="通知状态">
+            <template v-slot="scope">
+              <el-switch v-model="scope.row.operating" @change="chooseStatus(scope.row)" active-color="#13ce66" inactive-color="#DCDFE6"></el-switch>
+           </template>
+          </el-table-column>
+          <el-table-column label="操作">
+              <el-button type="text" size="mini">删除</el-button>
+              <el-button type="text" size="mini" @click="infoDialog = true">详情</el-button>
+          </el-table-column>
+      </el-table>
+      <el-dialog title="责任人详情" :visible.sync="infoDialog" custom-class="chile-device-box ">
+        <el-form :model="infoForm" label-position="left" label-width="100px" ref="infoForm">
+            <el-form-item label="责任人:">
+                <span>{{infoForm.responsible}}</span>
+            </el-form-item>
+            <el-form-item label="手机:">
+                <span>{{infoForm.mobile}}</span>
+            </el-form-item>
+            <el-form-item label="邮箱:">
+                <span>{{infoForm.email}}</span>
+            </el-form-item>
+            <el-form-item label="位置:">
+                <span>{{infoForm.position}}</span>
+            </el-form-item>
+        </el-form>
+      </el-dialog>
+  </el-main>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+        searchEvent: '',
+        
+        tableData: [
+            {
+                responsible: 'XXXX',
+                position: 'LH-E5-4F',
+                mesNumber: '5',
+                time: '2019-11-25 13:52:47',
+                operating: true
+            }
+        ],
+        infoDialog: false,
+        infoForm: {
+            responsible: '李改兰',
+            mobile: '18740459444',
+            email: '1300213918@qq.com',
+            position: 'LH-E5-4F'
+        }
+    }
+  },
+  methods: {
+      // 启用或者禁用
+    chooseStatus(row) {
+      if (row.operating === true) {
+        this.$Message.SuccessMessage(this, '启用成功');
+      } else {
+        this.$Message.SuccessMessage(this, '禁用成功');
+      }
+    },
+  }
+}
+</script>
+
+<style scoped>
+
+</style>

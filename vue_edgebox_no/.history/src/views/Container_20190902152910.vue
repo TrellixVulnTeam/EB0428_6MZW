@@ -1,0 +1,28 @@
+<template>
+  <div>
+    <van-row>
+      <van-col span="8">
+        <van-button type="primary" size="mini">主要</van-button>
+      </van-col>
+      <van-col span="8">
+        <van-button type="info" size="mini">信息</van-button>
+      </van-col>
+      <van-col span="8">
+        <van-button size="mini">默认</van-button>
+      </van-col>
+    </van-row>
+    <van-cell title="URL 跳转" is-link url="/vant/mobile.html" />
+    <van-cell title="路由跳转" is-link to="index" />
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {};
+  }
+};
+</script>
+
+<style scoped>
+</style>

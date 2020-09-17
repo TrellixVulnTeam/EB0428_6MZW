@@ -1,0 +1,1 @@
+<a href='http://127.0.0.1:8000/user/activate_user/eyJhbGciOiJIUzUxMiIsImlhdCI6MTU5MTY2Njc0OSwiZXhwIjoxNTkxNjcwMzQ5fQ.eyJ1c2VyX2lkIjozfQ.1NAMRP2hGirK3wFo6QHCJEaWFoULlmqGYl1qocWfq1zkQOC-pJ8P4oI8Ge2f9WVFjbnB_QLdU8reDXwYH4megQ>点击激活用户</a>

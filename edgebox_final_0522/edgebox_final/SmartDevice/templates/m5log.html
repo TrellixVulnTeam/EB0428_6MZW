@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>tail log</title>　<!-- 此boot.js不需要-->
+  <script src="../../boot.js"></script>
+  <script src="../../js/jquery-1.6.2.min.js"></script>
+</head>
+<body>
+<div class="loghead" style="font-size: 1.5em;color: #2eb1e8;font-weight: bold;text-shadow: 0 0 1px #a7a8ad;line-height: 1.5em; ">异常记录日志</div>
+<br>
+
+<div id="show_time">
+<script>
+//这里代码多了几行，但是不会延迟显示，速度比较好，格式可以自定义，是理想的时间显示
+setInterval("fun(show_time)",1);
+function fun(timeID){
+var date = new Date();  //创建对象
+var y = date.getFullYear();     //获取年份
+var m =date.getMonth()+1;   //获取月份  返回0-11
+var d = date.getDate(); // 获取日
+var w = date.getDay();   //获取星期几  返回0-6   (0=星期天)
+var ww = ' 星期'+'日一二三四五六'.charAt(new Date().getDay()) ;//星期几
+var h = date.getHours();  //时
+var minute = date.getMinutes()  //分
+var s = date.getSeconds(); //秒
+
+if(m<10){
+m = "0"+m;
+}
+if(d<10){
+d = "0"+d;
+}
+if(h<10){
+h = "0"+h;
+}
+
+
+if(minute<10){
+minute = "0"+minute;
+}
+
+
+if(s<10){
+s = "0"+s;
+}
+
+
+document.getElementById(timeID.id).innerHTML =  y+"-"+m+"-"+d+"   "+h+":"+minute+":"+s+ww;
+//document.write(y+"-"+m+"-"+d+"   "+h+":"+minute+":"+s);
+  }
+</script>
+</div>
+
+</div>
+<br>
+<div>名&nbsp;&nbsp;&nbsp;称： FM5网关</div>
+<div>序列号： 000001</div>
+<div>位&nbsp;&nbsp;&nbsp;置： E5-4F</div>
+<div>管理者： admin</div>
+
+<br>
+<div id="log-container" style="height: 300px; overflow-y: scroll; background: #333;padding: 10px;">
+  <div>
+      <ul style="color: whitesmoke">
+
+          <li>序号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日期&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;时间&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;消息类型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;消息详情</li>
+{#          <li>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020-08-21&nbsp;&nbsp;16:38:10&nbsp;&nbsp;&nbsp;received&nbsp;&nbsp;&nbsp;error message : Call supervisor&nbsp;&nbsp;&nbsp;</li>#}
+          {% for cdata in current_date%}
+          <li>{{ cdata.id }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ cdata.thingtime }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cdata.thingtype }}&nbsp;&nbsp;&nbsp;{{ cdata.thingdetails }}&nbsp;&nbsp;&nbsp;</li>
+{#          <li>{{ num.id }}</li>#}
+          {% endfor%}
+
+
+      </ul>
+  </div>
+</div>
+<div>　　<!-- 下面div用的是miniui的样式，其他的稍微改变一下即可-->
+  <div id="ck1" name="product" class="mini-checkbox"  checked = "true" readOnly="false" text="是否滚动"
+       onvaluechanged="onValueChanged" style="left: 20px"></div>
+  <a style="left: 30px;top: 1px" class="mini-button mini-button-info"
+     onclick="clearContext()">清屏</a>
+</div>
+</body>
+<script>
+
+  // 控制是否滚动显示日志
+  var checked = true;
+  function onValueChanged(e) {
+    checked = this.getChecked();
+  }
+
+  $(document).ready(function() {
+
+    // 指定websocket路径,此地址建议根据用js动态获取
+    var websocket = new WebSocket('ws://localhost:8080/log');
+    websocket.onmessage = function(event) {
+
+      // 接收服务端的实时日志并添加到HTML页面中（error显示红色）
+      if (event.data.search("ERROR") != -1) {
+        $("#log-container div").append(event.data).css("color", "#AA0000");
+      } else {
+        $("#log-container div").append(event.data).css("color", "#aaa");
+      }
+
+      // 是否滚动
+      if (checked) {
+        // 滚动条滚动到最低部
+        $("#log-container").scrollTop($("#log-container div").height() - $("#log-container").height());
+      }
+    };
+  });
+
+  // 清屏日志
+  function clearContext() {
+    $("#log-container div").empty();
+  }
+
+</script>
+</body>
+</html>

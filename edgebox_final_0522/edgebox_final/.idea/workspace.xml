@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="489d4636-b147-4e38-a081-f80602ba5e2b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/edgebox_final$views.coverage" NAME="views Coverage Results" MODIFIED="1570599702538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Device" />
+    <SUITE FILE_PATH="coverage/edgebox_final$tests.coverage" NAME="tests Coverage Results" MODIFIED="1571828831519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Drive" />
+    <SUITE FILE_PATH="coverage/edgebox_final$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1571885244389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins" />
+    <SUITE FILE_PATH="coverage/edgebox_final$__init____3_.coverage" NAME="__init__ (3) Coverage Results" MODIFIED="1571964984422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Drive" />
+    <SUITE FILE_PATH="coverage/edgebox_final$test.coverage" NAME="test Coverage Results" MODIFIED="1571877262406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins" />
+    <SUITE FILE_PATH="coverage/edgebox_final$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1571624649283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/edgebox_final" />
+    <SUITE FILE_PATH="coverage/edgebox_final$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1571475548854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Agent" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="0428db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="0428db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="0428db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db2" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db2" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db2" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sqlite_default" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sqlite_default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sqlite_default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sqlite_default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="gateway_smartcommu_list: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SpCZB55LUNZcHp8syNWsFspTxW" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="E:/Company_Personal projects/Serial_CorePro" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liu\Desktop\edgebox_pro\edgebox_final\plugins" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\EB0428\edgebox_final_0522\edgebox_final" />
+      <recent name="G:\edgebox_pro\edgebox_final\plugins" />
+      <recent name="G:\edgebox_pro\edgebox_final\remotely" />
+      <recent name="G:\edgebox_pro\edgebox_final\Log" />
+      <recent name="F:\djangoscripts\edgebox_final\Log" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.csqlite">
+    <configuration name="canis_etl_hex2dc_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="edgebox_final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plugins" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plugins/canis_etl_hex2dc_csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="csqlite" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="edgebox_final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SmartDevice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SmartDevice/csqlite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mqtttest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="edgebox_final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SmartDevice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SmartDevice/mqtttest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sqlitetest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="edgebox_final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SmartDevice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SmartDevice/sqlitetest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="edgebox_final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Device" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Device/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="edgebox_final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="F:\edgebox_pro\edgebox_final\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8002" />
+      <option name="host" value="10.167.198.111" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="true" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="edgebox_final" type="Python.DjangoServer" factoryName="Django server" singleton="false">
+      <module name="edgebox_final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="edgebox_final.settings" />
+      </envs>
+      <option name="SDK_HOME" value="F:\edgebox_pro\edgebox_final\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8002" />
+      <option name="host" value="0.0.0.0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="runserver 0.0.0.0:8002" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.edgebox_final" />
+      <item itemvalue="Python.canis_etl_hex2dc_csv" />
+      <item itemvalue="Python.views" />
+      <item itemvalue="Python.mqtttest" />
+      <item itemvalue="Python.sqlitetest" />
+      <item itemvalue="Python.csqlite" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.csqlite" />
+        <item itemvalue="Python.sqlitetest" />
+        <item itemvalue="Python.mqtttest" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.canis_etl_hex2dc_csv" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.17851622" />
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="489d4636-b147-4e38-a081-f80602ba5e2b" name="Default" comment="" />
+      <created>1570013775372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570013775372</updated>
+      <workItem from="1571617488819" duration="88001000" />
+      <workItem from="1571899243240" duration="36244000" />
+      <workItem from="1572227139437" duration="4099000" />
+      <workItem from="1572251211923" duration="564000" />
+      <workItem from="1572252832171" duration="1625000" />
+      <workItem from="1572260618125" duration="1362000" />
+      <workItem from="1572309127563" duration="3916000" />
+      <workItem from="1572327460874" duration="16541000" />
+      <workItem from="1572587943647" duration="10258000" />
+      <workItem from="1572939014351" duration="33130000" />
+      <workItem from="1573093622800" duration="8033000" />
+      <workItem from="1573116565945" duration="23919000" />
+      <workItem from="1573295402534" duration="13586000" />
+      <workItem from="1573626794250" duration="1044000" />
+      <workItem from="1573647339132" duration="6079000" />
+      <workItem from="1573690878453" duration="36318000" />
+      <workItem from="1573887369576" duration="585000" />
+      <workItem from="1574391614784" duration="948000" />
+      <workItem from="1574401720502" duration="1856000" />
+      <workItem from="1574488364463" duration="2246000" />
+      <workItem from="1574647493975" duration="2963000" />
+      <workItem from="1574666633363" duration="1242000" />
+      <workItem from="1574755495271" duration="4413000" />
+      <workItem from="1575418381087" duration="984000" />
+      <workItem from="1575512128560" duration="3774000" />
+      <workItem from="1575550655306" duration="1534000" />
+      <workItem from="1575709525085" duration="10172000" />
+      <workItem from="1576067420666" duration="808000" />
+      <workItem from="1576111658780" duration="7683000" />
+      <workItem from="1576458701761" duration="4666000" />
+      <workItem from="1576633469150" duration="2614000" />
+      <workItem from="1577066756035" duration="3607000" />
+      <workItem from="1577441468489" duration="827000" />
+      <workItem from="1577669840064" duration="5410000" />
+      <workItem from="1577925331767" duration="4573000" />
+      <workItem from="1578480446466" duration="1915000" />
+      <workItem from="1578483487630" duration="30646000" />
+      <workItem from="1578961347254" duration="959000" />
+      <workItem from="1579047593943" duration="3774000" />
+      <workItem from="1583714492947" duration="300000" />
+      <workItem from="1583714896306" duration="5183000" />
+      <workItem from="1583745852938" duration="1176000" />
+      <workItem from="1583799445328" duration="45583000" />
+      <workItem from="1584000226963" duration="6362000" />
+      <workItem from="1584058417795" duration="36382000" />
+      <workItem from="1584669965241" duration="3715000" />
+      <workItem from="1584694648852" duration="19578000" />
+      <workItem from="1584779587044" duration="10972000" />
+      <workItem from="1584793079633" duration="8856000" />
+      <workItem from="1584922401899" duration="12744000" />
+      <workItem from="1585294507229" duration="854000" />
+      <workItem from="1585295881611" duration="1928000" />
+      <workItem from="1585530026686" duration="1188000" />
+      <workItem from="1585622771058" duration="583000" />
+      <workItem from="1585721298660" duration="444000" />
+      <workItem from="1585885583330" duration="5519000" />
+      <workItem from="1585901582305" duration="9822000" />
+      <workItem from="1586219710046" duration="10752000" />
+      <workItem from="1586240534345" duration="19230000" />
+      <workItem from="1586312989876" duration="3284000" />
+      <workItem from="1586329782101" duration="688000" />
+      <workItem from="1586483589928" duration="13556000" />
+      <workItem from="1586584212084" duration="1500000" />
+      <workItem from="1586737133360" duration="597000" />
+      <workItem from="1586825270001" duration="307000" />
+      <workItem from="1586844620019" duration="3866000" />
+      <workItem from="1586860476054" duration="515000" />
+      <workItem from="1586861103866" duration="6087000" />
+      <workItem from="1586909828254" duration="1393000" />
+      <workItem from="1586917861174" duration="1774000" />
+      <workItem from="1587002676856" duration="26059000" />
+      <workItem from="1587189508473" duration="998000" />
+      <workItem from="1587344537488" duration="598000" />
+      <workItem from="1587367197958" duration="4806000" />
+      <workItem from="1587687965851" duration="5394000" />
+      <workItem from="1587699637602" duration="44918000" />
+      <workItem from="1587947112800" duration="15725000" />
+      <workItem from="1588036195362" duration="13953000" />
+      <workItem from="1588120288782" duration="14137000" />
+      <workItem from="1588206137953" duration="16533000" />
+      <workItem from="1588385905171" duration="26463000" />
+      <workItem from="1588579382358" duration="11035000" />
+      <workItem from="1588659286846" duration="42131000" />
+      <workItem from="1589009285772" duration="640000" />
+      <workItem from="1589263139117" duration="4815000" />
+      <workItem from="1589436993004" duration="19842000" />
+      <workItem from="1589589844498" duration="19372000" />
+      <workItem from="1589768513750" duration="9370000" />
+      <workItem from="1589963369777" duration="599000" />
+      <workItem from="1590033625034" duration="19764000" />
+      <workItem from="1590111501479" duration="10651000" />
+      <workItem from="1590364959059" duration="2038000" />
+      <workItem from="1590367961160" duration="686000" />
+      <workItem from="1590368871315" duration="638000" />
+      <workItem from="1590369563877" duration="4492000" />
+      <workItem from="1590461169895" duration="4504000" />
+      <workItem from="1590540573381" duration="40686000" />
+      <workItem from="1590710927979" duration="33175000" />
+      <workItem from="1590970764797" duration="2643000" />
+      <workItem from="1590994173009" duration="4125000" />
+      <workItem from="1591065665147" duration="7054000" />
+      <workItem from="1591606376317" duration="1609000" />
+      <workItem from="1591608010057" duration="85000" />
+      <workItem from="1591608203346" duration="7135000" />
+      <workItem from="1591662849774" duration="2815000" />
+      <workItem from="1591667580926" duration="8888000" />
+      <workItem from="1592186297497" duration="27239000" />
+      <workItem from="1592355138977" duration="19599000" />
+      <workItem from="1592439159956" duration="6119000" />
+      <workItem from="1592525839374" duration="12309000" />
+      <workItem from="1592784902038" duration="11280000" />
+      <workItem from="1592870987780" duration="4857000" />
+      <workItem from="1592957534169" duration="1470000" />
+      <workItem from="1593140714903" duration="651000" />
+      <workItem from="1593242961281" duration="2000" />
+      <workItem from="1593499765987" duration="2857000" />
+      <workItem from="1593572442001" duration="704000" />
+      <workItem from="1593674051102" duration="32000" />
+      <workItem from="1593765843984" duration="2984000" />
+      <workItem from="1593832557419" duration="2340000" />
+      <workItem from="1594014187016" duration="28000" />
+      <workItem from="1594025599910" duration="850000" />
+      <workItem from="1594107625526" duration="19000" />
+      <workItem from="1595993076985" duration="2896000" />
+      <workItem from="1596164079049" duration="1389000" />
+      <workItem from="1596530463005" duration="1370000" />
+      <workItem from="1596588120401" duration="57000" />
+      <workItem from="1597976330011" duration="18459000" />
+      <workItem from="1598228460820" duration="18007000" />
+      <workItem from="1598508667359" duration="854000" />
+      <workItem from="1598938911853" duration="32000" />
+      <workItem from="1599098277549" duration="31000" />
+      <workItem from="1599708486335" duration="3411000" />
+      <workItem from="1600047972233" duration="159000" />
+      <workItem from="1600247699770" duration="258000" />
+      <workItem from="1600305473862" duration="593000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/edgebox_final$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1573201214400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Device" />
+    <SUITE FILE_PATH="coverage/edgebox_final$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1572938144235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins" />
+    <SUITE FILE_PATH="coverage/edgebox_final$SerialModel_20190729_post.coverage" NAME="SerialModel_20190729_post Coverage Results" MODIFIED="1573027425105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/edgebox_final$tcp_serial_redirect.coverage" NAME="tcp_serial_redirect Coverage Results" MODIFIED="1573111320520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins" />
+    <SUITE FILE_PATH="coverage/edgebox_final$canis_etl_hex2dc_csv.coverage" NAME="canis_etl_hex2dc_csv Coverage Results" MODIFIED="1588400522192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins" />
+    <SUITE FILE_PATH="coverage/edgebox_final$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1573202084459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/edgebox_final" />
+    <SUITE FILE_PATH="coverage/edgebox_final$sqlitetest.coverage" NAME="sqlitetest Coverage Results" MODIFIED="1598250371932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SmartDevice" />
+    <SUITE FILE_PATH="coverage/edgebox_final$views.coverage" NAME="views Coverage Results" MODIFIED="1590372898587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Device" />
+    <SUITE FILE_PATH="coverage/edgebox_final$systemos.coverage" NAME="systemos Coverage Results" MODIFIED="1583918158486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins" />
+    <SUITE FILE_PATH="coverage/edgebox_final$Edgebox_demo.coverage" NAME="Edgebox_demo Coverage Results" MODIFIED="1572407422254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/EdgeBox網關開發/EdgeBox網關/EdgeBox_setting/EdgeTool/Skills" />
+    <SUITE FILE_PATH="coverage/edgebox_final$mqtttest.coverage" NAME="mqtttest Coverage Results" MODIFIED="1598239482301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SmartDevice" />
+    <SUITE FILE_PATH="coverage/edgebox_final$csqlite.coverage" NAME="csqlite Coverage Results" MODIFIED="1598250802786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SmartDevice" />
+  </component>
+</project>

@@ -1,0 +1,30 @@
+<template>
+  <div>
+    <van-row>
+      <van-col span="8">
+        <van-button type="primary" size="mini">主要</van-button>
+      </van-col>
+      <van-col span="8">
+        <van-button type="info" size="mini">信息</van-button>
+      </van-col>
+      <van-col span="8">
+        <van-button size="mini">默认</van-button>
+      </van-col>
+    </van-row>
+    <van-cell-group>
+      <van-cell title="单元格" value="内容" />
+      <van-cell title="单元格" value="内容" label="描述信息" />
+    </van-cell-group>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {};
+  }
+};
+</script>
+
+<style scoped>
+</style>
